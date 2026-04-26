@@ -34,5 +34,3 @@
 2. Run the program.
 3. Enter three numbers when prompted.
 4. The program will display the maximum number.
-
-## Sample Output
