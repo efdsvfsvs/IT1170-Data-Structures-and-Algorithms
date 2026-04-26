@@ -1,0 +1,15 @@
+IT1170 - Practical 1
+Exercise 2: Pseudocode - Find Average of N Numbers
+
+BEGIN
+    INPUT N
+    SET Sum = 0
+    
+    FOR i = 1 TO N DO
+        INPUT Xi
+        Sum = Sum + Xi
+    END FOR
+    
+    Average = Sum / N
+    OUTPUT "The average is: " + Average
+END
