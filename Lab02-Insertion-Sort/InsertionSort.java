@@ -1,11 +1,7 @@
 
 import java.util.Scanner;
 
-/**
- * IT1170 - Data Structures and Algorithms
- * Practical 2 – Insertion Sort
- * Exercise 1: Insertion Sort in Ascending Order
- */
+
 public class InsertionSort {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
