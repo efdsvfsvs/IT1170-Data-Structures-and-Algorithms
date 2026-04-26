@@ -1,1 +1,16 @@
+IT1170 - Practical 1
+Exercise 2: Pseudocode - Find Maximum of Three Numbers
 
+BEGIN
+    INPUT A, B, C
+    
+    IF A >= B AND A >= C THEN
+        MAX = A
+    ELSE IF B >= A AND B >= C THEN
+        MAX = B
+    ELSE
+        MAX = C
+    END IF
+    
+    OUTPUT "The maximum number is: " + MAX
+END
