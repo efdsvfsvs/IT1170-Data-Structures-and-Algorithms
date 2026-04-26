@@ -1,0 +1,50 @@
+IT1170 - Data Structures and Algorithms
+Practical 1 – Introduction to Algorithms
+Exercise 1: Identifying Algorithms
+
+1. Two real-life examples similar to navigation system:
+   - Recipe for cooking a dish 
+   - ATM cash withdrawal process
+
+2. Sample Algorithm for a Navigation System:
+
+   Input: Current location, Destination
+   Output: Step-by-step directions
+
+   1. Start
+   2. Read current location and destination
+   3. Find all possible routes between start and destination
+   4. Calculate distance and estimated time for each route
+   5. Select the route with the shortest time
+   6. Display turn-by-turn directions
+   7. Provide voice guidance
+   8. Recalculate if user deviates from the path
+   9. Stop when destination is reached
+
+3. Algorithm to find the maximum of three numbers:
+
+   Input: Three numbers A, B, C
+   Output: Largest number
+
+   1. Start
+   2. Read A, B, C
+   3. If A >= B and A >= C, then Max = A
+      Else if B >= A and B >= C, then Max = B
+      Else Max = C
+   4. Display "Maximum is", Max
+   5. Stop
+
+4. Algorithm to find the average of a list of N numbers:
+
+   Input: N, followed by N numbers
+   Output: Average value
+
+   1. Start
+   2. Read N
+   3. Initialize Sum = 0
+   4. For i = 1 to N:
+        Read number Xi
+        Sum = Sum + Xi
+   5. Average = Sum / N
+   6. Display "Average is", Average
+   7. Stop
